@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <linkref h="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></linkref>
+    <title>Document</title>
+    <style>
+        body{
+         
+        }
+        .container{
+            background-color: black;
+            height: auto;
+            width: 600px;
+            font-size: 40px;
+            display: grid;
+            color: white;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            row-gap: 20px;
+            /* padding: 5px; */
+            margin: auto;
+        column-gap: 20px;
+        border-radius: 20px;
+        
+        }
+        .item1{
+            background-color: brown;
+            color: wheat;
+            font-size: 40px;
+            border-radius: 100%;
+            text-align: center;
+            justify-content: center;
+            height: 80px;
+            width: 80px;
+        }
+        .item2{
+            text-align: center;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-color: transparent;
+        }
+        button{
+            border: none;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+        .item1:hover{
+            background-color: blue ;
+            font-size: 60px;
+            font-weight: bolder;
+            text-align: center;
+        }
+        input[type="text"]{
+padding: 10px;
+width: 90%;
+height: 60px;
+border-radius: 20px;
+border: none;
+        }
+         .main{
+            background: linear-gradient(blue,green,yellow,red,skyblue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   
+        <h1 class="main">calculator</h1>
+    
+    <div class="container">
+        <div class="item2"> <input type="text" name="" id=""> </div>
+            <buttton class="item1" style="background-color:white" ;>mc</buttton>
+            <buttton class="item1" style="background-color:white" ;>m+</buttton>
+            <buttton class="item1" style="background-color:white" ;>m-</buttton>
+            <buttton class="item1" style="background-color: orange;">mr</buttton>
+            <buttton class="item1" style="background-color:grey ;">AC</buttton>
+            <buttton class="item1" style="background-color:grey ;"></buttton>
+            <buttton class="item1" style="background-color:grey ;">+/-</buttton>
+            <buttton class="item1" style="background-color: orange;">%</buttton>
+            <buttton class="item1" style="background-color:grey ;">7</buttton>
+            <buttton class="item1" style="background-color:grey ;">8</buttton>
+            <buttton class="item1" style="background-color:grey ;">9</buttton> 
+            <buttton class="item1" style="background-color: orange;">*</buttton>
+            <buttton class="item1" style="background-color:grey ;">4</buttton>
+            <buttton class="item1" style="background-color:grey ;">5</buttton> 
+            <buttton class="item1" style="background-color:grey ;">6</buttton>
+            <buttton class="item1" style="background-color: orange;">>-</buttton>
+            <buttton class="item1" style="background-color:grey ;">1</buttton> 
+            <buttton class="item1" style="background-color:grey ;">7</buttton>
+            <buttton class="item1" style="background-color:grey ;">8</buttton>
+            <buttton class="item1" style="background-color: orange;">9</buttton> 
+            <buttton class="item1" style="background-color:grey ;">%</buttton>
+            <buttton class="item1" style="background-color:grey ;">0</buttton>
+            <buttton class="item1" style="background-color:grey ;">.</buttton>
+            <buttton class="item1" style="background-color:green ;">=</buttton>  
+
+    </div>
+</body>
+</html>
